@@ -570,7 +570,7 @@ open class WalletView: UIView {
             return nil
         }()
         
-        var cardViewYPoint = 0
+        var cardViewYPoint: CGFloat = 0
         
         let cardViewHeight = self.cardViewHeight
         
@@ -580,8 +580,8 @@ open class WalletView: UIView {
             
             let cardView = insertedCardViews[cardViewIndex]
             
-            var cardViewFrame = CGRect(x: 0, y: max(cardViewYPoint, 0), width: frame.width, height: cardViewHeight)
-            
+            var cardViewFrame = CGRect(x: 0, y: cardViewYPoint, width: frame.width, height: cardViewHeight)
+
             if cardView == firstCardView {
                 
                 cardViewFrame.origin.y = min(cardViewFrame.origin.y, 0)

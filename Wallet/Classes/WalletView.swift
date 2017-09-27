@@ -5,7 +5,7 @@
 open class WalletView: UIView {
     
     // MARK: Public methods
-
+    
     /**
      Initializes and returns a newly allocated wallet view object with the specified frame rectangle.
      
@@ -78,7 +78,7 @@ open class WalletView: UIView {
      - parameter animated: If true, the view is being added to the wallet view using an animation.
      - parameter presented: If true, the view is being added to the wallet view and presented right way.
      - parameter completion: A block object to be executed when the animation sequence ends.
-
+     
      */
     open func insert(cardView: CardView, animated: Bool = false, presented: Bool = false,  completion: InsertionCompletion? = nil) {
         
@@ -196,20 +196,6 @@ open class WalletView: UIView {
     /** This block is called after the receiver’s card view is presented or dimissed. */
     public var didUpdatePresentedCardViewBlock: PresentedCardViewDidUpdateBlock?
     
-    /** Returns an accessory view that is displayed above the wallet view. */
-    @IBOutlet public weak var walletHeader: UIView? {
-        willSet {
-            if let walletHeader = newValue {
-                scrollView.addSubview(walletHeader)
-            }
-        }
-        didSet {
-            oldValue?.removeFromSuperview()
-            calculateLayoutValues()
-        }
-    }
-    
-    
     /** The card view that is presented by this wallet view. */
     public var presentedCardView: CardView? {
         
@@ -306,23 +292,10 @@ open class WalletView: UIView {
         
     }
     
-    func prepareWalletHeaderView() {
-        
-        let walletHeader = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 44))
-        
-        walletHeader.textAlignment = .center
-        walletHeader.text = "Wallet"
-        
-        self.walletHeader = walletHeader
-    }
-    
     let scrollView = UIScrollView()
-
+    
     func prepareWalletView() {
-        
         prepareScrollView()
-        prepareWalletHeaderView()
-        
     }
     
     func insert(cardViews: [CardView]) {
@@ -407,9 +380,9 @@ open class WalletView: UIView {
                 UIView.addKeyframe(withRelativeStartTime: 0.6, relativeDuration: 0.7, animations: {
                     self?.remove(cardViews: [cardView])
                 })
-                    
-                UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 0.7, animations: {
                 
+                UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 0.7, animations: {
+                    
                     removalSuperview.frame = removalSuperview.frame.insetBy(dx: 0, dy: removalSuperview.frame.height/2)
                     cardView.alpha = 0.0
                     
@@ -505,7 +478,6 @@ open class WalletView: UIView {
     }
     
     var collapsedCardViewStackHeight:   CGFloat = 0
-    var walletHeaderHeight:         CGFloat = 0
     var cardViewTopInset:               CGFloat = 0
     var maximumCardViewHeight:          CGFloat = 0
     var cardViewHeight:                 CGFloat = 0
@@ -513,10 +485,7 @@ open class WalletView: UIView {
     
     func calculateLayoutValues(shouldLayoutWalletView: Bool = true) {
         
-        
-        walletHeaderHeight = walletHeader?.frame.height ?? 0
-        
-        cardViewTopInset = scrollView.contentInset.top + walletHeaderHeight
+        cardViewTopInset = scrollView.contentInset.top
         
         collapsedCardViewStackHeight = (minimalDistanceBetweenCollapsedCardViews * CGFloat(maximimNumberOfCollapsedCardViewsToShow)) + distanceBetweetCollapsedAndPresentedCardViews
         
@@ -525,27 +494,13 @@ open class WalletView: UIView {
         cardViewHeight = min(preferableCardViewHeight, maximumCardViewHeight)
         
         
-        let usableCardViewsHeight = walletHeaderHeight + insertedCardViews.map { _ in cardViewHeight }.reduce(0, { $0 + $1 } )
+        let usableCardViewsHeight = insertedCardViews.map { _ in cardViewHeight }.reduce(0, { $0 + $1 } )
         
         distanceBetweenCardViews = max(minimalDistanceBetweenStackedCardViews, usableCardViewsHeight/CGFloat(insertedCardViews.count)/CGFloat(insertedCardViews.count))
-
+        
         if shouldLayoutWalletView {
             layoutWalletView()
             updateScrolViewContentSize()
-        }
-        
-    }
-    
-    func layoutWalletHeader() {
-        
-        if let walletHeader = walletHeader {
-            
-            var walletHeaderFrame = walletHeader.frame
-            walletHeaderFrame.origin = convert(.zero, to: scrollView)
-            walletHeaderFrame.origin.y += scrollView.contentInset.top
-            walletHeaderFrame.size = CGSize(width: frame.width, height: walletHeader.frame.height)
-            walletHeader.frame = walletHeaderFrame
-            
         }
         
     }
@@ -556,8 +511,6 @@ open class WalletView: UIView {
                           completion: LayoutCompletion? = nil) {
         
         let animations = { [weak self] in
-            
-            self?.layoutWalletHeader()
             
             if let presentedCardView = self?.presentedCardView,
                 let insertedCardViews = self?.insertedCardViews {
@@ -586,9 +539,7 @@ open class WalletView: UIView {
         
         var contentSize = CGSize(width: frame.width, height: 0)
         
-        let walletHeaderHeight = walletHeader?.frame.height ?? 0
-        
-        contentSize.height = (insertedCardViews.last?.frame.maxY ?? walletHeaderHeight) - (maximumCardViewHeight/2)
+        contentSize.height = (insertedCardViews.last?.frame.maxY ?? 0) - (maximumCardViewHeight/2)
         
         if !contentSize.equalTo(scrollView.contentSize) {
             scrollView.contentSize = contentSize
@@ -619,9 +570,7 @@ open class WalletView: UIView {
             return nil
         }()
         
-        let walletHeaderY = walletHeader?.frame.origin.y ?? zeroRectConvertedFromWalletView.origin.y
-        
-        var cardViewYPoint = walletHeaderHeight
+        var cardViewYPoint = 0
         
         let cardViewHeight = self.cardViewHeight
         
@@ -631,11 +580,11 @@ open class WalletView: UIView {
             
             let cardView = insertedCardViews[cardViewIndex]
             
-            var cardViewFrame = CGRect(x: 0, y: max(cardViewYPoint, walletHeaderY), width: frame.width, height: cardViewHeight)
+            var cardViewFrame = CGRect(x: 0, y: max(cardViewYPoint, 0), width: frame.width, height: cardViewHeight)
             
             if cardView == firstCardView {
                 
-                cardViewFrame.origin.y = min(cardViewFrame.origin.y, walletHeaderY + walletHeaderHeight)
+                cardViewFrame.origin.y = min(cardViewFrame.origin.y, 0)
                 cardView.frame = cardViewFrame
                 
             } else {
@@ -775,4 +724,3 @@ open class WalletView: UIView {
     }
     
 }
-

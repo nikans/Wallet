@@ -7,175 +7,158 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ADE4F01EBDCFC66E956C9FE61B6A5D6 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3179CAC7A7725F2C718A05FE59747 /* HSL.swift */; };
-		13FF033D97365CE3894692912164C30E /* ColorDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A523B69669570001212CFAB91B35B2E /* ColorDefinition.swift */; };
-		151B2DE2966082DFE54D84CF6999CC58 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F19E8AC22FFB5784418FF12F3F7511 /* CardView.swift */; };
-		18ABF7E2A66036F368A864284A8F887E /* Pods-Wallet_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB643780257C6D27E522A85B85849460 /* Pods-Wallet_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2364652F175D5695DAD0B11FEFA2A73C /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FE6AF0EB43F8FEF23FD293C0E43A05 /* Array.swift */; };
-		424ACCFD6DA2229C594857A8A1688BBB /* DynamicColor+Lab.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCDA4A839113C7E5B212B49BEFAA283 /* DynamicColor+Lab.swift */; };
-		4D89D6BCB4DF88E0C0BA16AC4BE4DA34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		4EB97FF1B6243D90747E4D5807D2104F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		563FC6BD26440F44B9CDE6C165182B89 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F46B4DC41397BBAEF69BEA73C65083 /* Utils.swift */; };
-		56CA115A4B4B4FEF6003FC91A497CB91 /* DynamicColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E54B5EAC04D275FDA8AED7EED56FF8 /* DynamicColor-dummy.m */; };
-		5F4215E5D65D87DEAD5E6C8D7EDC055F /* RandomColorSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C24C37C6CC9BE60AB9236EC4F0FED58B /* RandomColorSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FD32BBC6C2ACFC4494EB386E6F9308A /* DynamicColor+Deriving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992B5EFD2EB205A1B27836BBA80C133F /* DynamicColor+Deriving.swift */; };
-		676F0715FFEEB4FA5D770C912AC4F74C /* DynamicColor+HSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD54CDC7480E1B4F30EB026BE7C37B0A /* DynamicColor+HSB.swift */; };
-		78999E64ED0E89EEBE9203A93B4FD064 /* Pods-Wallet_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3115C8E19926B43035E7D21C6796870A /* Pods-Wallet_Example-dummy.m */; };
-		79A681C2EAFA2D16A9357DF21226FCC6 /* DynamicColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CFBAF47E4DD8ACDCD87EDA3908B09F3 /* DynamicColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		856CE294370DAF553F0ECDD29AD669B9 /* DynamicColor+HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C1806C6EF9822B596F6FCEC4B0187E /* DynamicColor+HSL.swift */; };
-		8A50689465F992C0C42B4928D012D5C8 /* Wallet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B892E07BDA190A197305CE7385CB9F /* Wallet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CBAEE66D04ED2D8E8E8D4D9687F1609 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		A0EBB891BA9517F9701487F7A930C8EA /* DynamicColorSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF26ED5F12D6A985A87FDB12DEBE5A1B /* DynamicColorSpace.swift */; };
-		AE2389789B8423BC4295A28C3E5591C0 /* DynamicColor+RGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55AAD6499F14934E1CB95963469D53C /* DynamicColor+RGBA.swift */; };
-		B0D08AD729FECE980C74EC0780799331 /* DynamicColor+Mixing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D03DCE3A2E8C7021C7E5B4B79ADDD01 /* DynamicColor+Mixing.swift */; };
-		B71D80CEA75DC1B5FE6B5923A921F612 /* Luminosity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E13375BD949F5747141AE11001F7F3 /* Luminosity.swift */; };
-		BC87E7CBDD2411DE5A557CA1B5553DAF /* DynamicColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF3C80EC792BDA2D8B324AD9247238C /* DynamicColor.swift */; };
-		BF31BB22BF44B03E03438F108CFD0456 /* RandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45ACC8C8E6AC1321ADDAF1F156D88CC /* RandomColor.swift */; };
-		C364404F55FCB12539B013833A9A2EA4 /* Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C3C2200BE94FDFB1512EF6D8C6A86E /* Hue.swift */; };
-		C44A1F902C491293582197A57CE55FE8 /* DynamicGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB60BB9965558BE1190F30367BFB811 /* DynamicGradient.swift */; };
-		D093119867767CFC4245C44884E31811 /* RandomColorSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C951B1855578A725AB614F42F009B2C /* RandomColorSwift-dummy.m */; };
-		DA18D374BACECF69F85DE0B98029F4A4 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A15584E0E56657A7FC41386107CBEA3 /* WalletView.swift */; };
-		E6FED205EA365CE2B5C0B5723D2117A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		EADF56A71A960146E4595E95D24AE7DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		ED2406FC13EDD6D121D1ADA776B0253F /* DynamicColor+XYZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596397840662E7793C9A1E445BE8BE9 /* DynamicColor+XYZ.swift */; };
-		F056690A1766C06D2330A2947D655A0F /* Wallet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5A5585BAEC97C99C04EE4D1D12354 /* Wallet-dummy.m */; };
+		02E79FCFE227E6B2A591F2443F5ACEEF /* ColorDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A523B69669570001212CFAB91B35B2E /* ColorDefinition.swift */; };
+		060E4125785E2476ACB52C56CA56B3B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		12FEC3DF21050C85A821BF447F3C3A99 /* RandomColorSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C24C37C6CC9BE60AB9236EC4F0FED58B /* RandomColorSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16D08FB2A59EA1EC21FE8FA029940D81 /* DynamicColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF3C80EC792BDA2D8B324AD9247238C /* DynamicColor.swift */; };
+		186B8A70499597D6E554440D69E04DCD /* DynamicColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E54B5EAC04D275FDA8AED7EED56FF8 /* DynamicColor-dummy.m */; };
+		1B524B382874C6482E7A9E6DD014A218 /* DynamicColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CFBAF47E4DD8ACDCD87EDA3908B09F3 /* DynamicColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25D9964CA21FFE346327A5C5AC77169E /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4729E0F8D0D7B4E28898C6192C04A74 /* WalletView.swift */; };
+		28F66F726983ECAB18C430982C0F28E8 /* DynamicColorSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF26ED5F12D6A985A87FDB12DEBE5A1B /* DynamicColorSpace.swift */; };
+		29D7BA2036B88EB84CDBE9281AA360D3 /* DynamicColor+HSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD54CDC7480E1B4F30EB026BE7C37B0A /* DynamicColor+HSB.swift */; };
+		379569C2692CE795D04EC402DECC07AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		436A3022B66749E1FB26B69DA675B491 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		471F513248B2989FB36EC0D56E9CDBBB /* DynamicColor+RGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55AAD6499F14934E1CB95963469D53C /* DynamicColor+RGBA.swift */; };
+		4AFFB3AA4F7180A2D6EA12D35EF92B43 /* Pods-Wallet_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3115C8E19926B43035E7D21C6796870A /* Pods-Wallet_Example-dummy.m */; };
+		59547F6F675435754E9BEB23F9AC2D6F /* DynamicColor+Mixing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D03DCE3A2E8C7021C7E5B4B79ADDD01 /* DynamicColor+Mixing.swift */; };
+		5BFFC3F2A91448AC9E94E3C2FC2EAA75 /* RandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45ACC8C8E6AC1321ADDAF1F156D88CC /* RandomColor.swift */; };
+		66BCC3F1CC504913A73080D44F3C21D1 /* DynamicColor+Lab.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCDA4A839113C7E5B212B49BEFAA283 /* DynamicColor+Lab.swift */; };
+		6C408A8CF9EF9AEB5111F0794FFECCDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		704A6830B7B3592C15DB4996CE8EDB2D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791F7D0562AA0D0E403DDF69E881A238 /* CardView.swift */; };
+		7B4C02C1BDF15186F402B3100517A9E7 /* DynamicColor+Deriving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992B5EFD2EB205A1B27836BBA80C133F /* DynamicColor+Deriving.swift */; };
+		7DACCEE1830C33C774FB0C53BC0E4556 /* DynamicColor+XYZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = B596397840662E7793C9A1E445BE8BE9 /* DynamicColor+XYZ.swift */; };
+		7EDE22C99E3F100F1AC1A5FAF9DD914B /* RandomColorSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C951B1855578A725AB614F42F009B2C /* RandomColorSwift-dummy.m */; };
+		94E6B316AE9BB1CB9BA50C7D10C3F69E /* Wallet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DABBEA8FB4EA2A9AF569316D33A581 /* Wallet-dummy.m */; };
+		A238D8EC86DDBF90DF3402B1FFE367DF /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FE6AF0EB43F8FEF23FD293C0E43A05 /* Array.swift */; };
+		AD83A3C9D1FD52649A8AB5E7BDEB01E1 /* DynamicGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB60BB9965558BE1190F30367BFB811 /* DynamicGradient.swift */; };
+		B65D972A5497224F4B11190E7FCD3684 /* Pods-Wallet_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB643780257C6D27E522A85B85849460 /* Pods-Wallet_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02A5DA43088597E7DB46368380FAC26 /* DynamicColor+HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C1806C6EF9822B596F6FCEC4B0187E /* DynamicColor+HSL.swift */; };
+		C991614D999AB1EDDFEAD226A4E16734 /* Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C3C2200BE94FDFB1512EF6D8C6A86E /* Hue.swift */; };
+		DF8ACF00E02BB19567882C2D6BAC00C3 /* Luminosity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E13375BD949F5747141AE11001F7F3 /* Luminosity.swift */; };
+		EA3A9D261D67E22A6083FE24742AAF84 /* Wallet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A6A6CABC4BD79774FCB0E0CAEBB6ADC /* Wallet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA5E6C08B38EF33F382F9558C79A9D3D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F46B4DC41397BBAEF69BEA73C65083 /* Utils.swift */; };
+		F87469F1747C5872CD9D3879C6D0BDEF /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3179CAC7A7725F2C718A05FE59747 /* HSL.swift */; };
+		FF366DF1973039F17D8A10979E48150D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A3A40643AA0B5C59B315C7C73BEB3983 /* PBXContainerItemProxy */ = {
+		48B01F25EA6A44BCF70AEA9800B809D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9C97BBB7AD3136FB5B457127CEF75189;
-			remoteInfo = DynamicColor;
-		};
-		E767529BB6EA07E008A70162D6D39F62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AA3E7D4D551F127910EF6F79562EC41B;
+			remoteGlobalIDString = 47D937A792E0138E5BFABE75A3A3146F;
 			remoteInfo = Wallet;
 		};
-		F8FEE5F1662C97C8CE1EC2952A5D972D /* PBXContainerItemProxy */ = {
+		A04A61C3359B824D85830EC36EAE7258 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A732734CC2619B9F4142E70B94BFD93D;
+			remoteGlobalIDString = 7695097722BCFC3AB0E1AB75466E30EB;
 			remoteInfo = RandomColorSwift;
+		};
+		DA6BE538C66C5A2759AC908E1CEC77EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C64F0FDD564E859332AD6D302CCC004D;
+			remoteInfo = DynamicColor;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15C71953C4C4BBE3069F996904F7B26F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6A6CABC4BD79774FCB0E0CAEBB6ADC /* Wallet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Wallet-umbrella.h"; sourceTree = "<group>"; };
 		167E2EE465564EDA837740747743D501 /* DynamicColor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicColor.xcconfig; sourceTree = "<group>"; };
-		16A90E3BA2B3C0814957867B1CE73F6B /* Wallet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Wallet.xcconfig; sourceTree = "<group>"; };
 		1D03DCE3A2E8C7021C7E5B4B79ADDD01 /* DynamicColor+Mixing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+Mixing.swift"; path = "Sources/DynamicColor+Mixing.swift"; sourceTree = "<group>"; };
 		1D6DC2A691B480DF36205402D1A56B4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DABBEA8FB4EA2A9AF569316D33A581 /* Wallet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Wallet-dummy.m"; sourceTree = "<group>"; };
 		2C315934A47186A21D2E1EC347BC5345 /* Pods-Wallet_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Wallet_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2C951B1855578A725AB614F42F009B2C /* RandomColorSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RandomColorSwift-dummy.m"; sourceTree = "<group>"; };
+		30E7E282F110A436E47E6B2F0DB461D0 /* Wallet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Wallet.xcconfig; sourceTree = "<group>"; };
 		3115C8E19926B43035E7D21C6796870A /* Pods-Wallet_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Wallet_Example-dummy.m"; sourceTree = "<group>"; };
 		32E54B5EAC04D275FDA8AED7EED56FF8 /* DynamicColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicColor-dummy.m"; sourceTree = "<group>"; };
 		3A51AC7F9F6A558F23477D2F9D7E2026 /* DynamicColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicColor-prefix.pch"; sourceTree = "<group>"; };
 		3AB60BB9965558BE1190F30367BFB811 /* DynamicGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicGradient.swift; path = Sources/DynamicGradient.swift; sourceTree = "<group>"; };
 		40065795C91C35CEA0B911C081C3E6E7 /* Pods-Wallet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wallet_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		44780B46D4F232197EFB725D663EFD8E /* DynamicColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DynamicColor.modulemap; sourceTree = "<group>"; };
+		44780B46D4F232197EFB725D663EFD8E /* DynamicColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DynamicColor.modulemap; sourceTree = "<group>"; };
 		46260C873D75D55EAE145CD57813E0C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A523B69669570001212CFAB91B35B2E /* ColorDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorDefinition.swift; path = RandomColor/ColorDefinition.swift; sourceTree = "<group>"; };
-		4EA5A5585BAEC97C99C04EE4D1D12354 /* Wallet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Wallet-dummy.m"; sourceTree = "<group>"; };
 		53E13375BD949F5747141AE11001F7F3 /* Luminosity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Luminosity.swift; path = RandomColor/Luminosity.swift; sourceTree = "<group>"; };
 		5CFBAF47E4DD8ACDCD87EDA3908B09F3 /* DynamicColor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicColor-umbrella.h"; sourceTree = "<group>"; };
-		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66C3C2200BE94FDFB1512EF6D8C6A86E /* Hue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hue.swift; path = RandomColor/Hue.swift; sourceTree = "<group>"; };
 		66FE6AF0EB43F8FEF23FD293C0E43A05 /* Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Array.swift; path = Sources/Array.swift; sourceTree = "<group>"; };
+		697B7DFA0B20839FFD5F94CBF40655F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		699F444325642DA376538613069BA870 /* Pods-Wallet_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Wallet_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73642F31177405F3AFC0953A41335CED /* RandomColorSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomColorSwift-prefix.pch"; sourceTree = "<group>"; };
 		78C1806C6EF9822B596F6FCEC4B0187E /* DynamicColor+HSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+HSL.swift"; path = "Sources/DynamicColor+HSL.swift"; sourceTree = "<group>"; };
-		79959ABEE6B174003D66DF72D689CC7D /* Wallet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Wallet-prefix.pch"; sourceTree = "<group>"; };
-		7A15584E0E56657A7FC41386107CBEA3 /* WalletView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
-		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		88B892E07BDA190A197305CE7385CB9F /* Wallet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Wallet-umbrella.h"; sourceTree = "<group>"; };
+		791F7D0562AA0D0E403DDF69E881A238 /* CardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = Wallet/Classes/CardView.swift; sourceTree = "<group>"; };
 		89F4CD098A7A37BEA7BBD262B841633B /* Pods-Wallet_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Wallet_Example-resources.sh"; sourceTree = "<group>"; };
-		8B188BF7775DF9DB31B22109A2392DE6 /* DynamicColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B188BF7775DF9DB31B22109A2392DE6 /* DynamicColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DynamicColor.framework; path = DynamicColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1867A1AE9849E37E64266A2E4A67E9 /* RandomColorSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RandomColorSwift.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94F46B4DC41397BBAEF69BEA73C65083 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils.swift; sourceTree = "<group>"; };
-		95175D4A79D4A6995DBC71BD2D138C1D /* Pods-Wallet_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Wallet_Example.modulemap"; sourceTree = "<group>"; };
+		95175D4A79D4A6995DBC71BD2D138C1D /* Pods-Wallet_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Wallet_Example.modulemap"; sourceTree = "<group>"; };
 		992B5EFD2EB205A1B27836BBA80C133F /* DynamicColor+Deriving.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+Deriving.swift"; path = "Sources/DynamicColor+Deriving.swift"; sourceTree = "<group>"; };
-		9D0D661F6D007CC71E2A2284E19D6410 /* Wallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Wallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D0D661F6D007CC71E2A2284E19D6410 /* Wallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Wallet.framework; path = Wallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF3C80EC792BDA2D8B324AD9247238C /* DynamicColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicColor.swift; path = Sources/DynamicColor.swift; sourceTree = "<group>"; };
-		A4031D16D99FDC4002F685A7D02AE2F8 /* Pods_Wallet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wallet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4031D16D99FDC4002F685A7D02AE2F8 /* Pods_Wallet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Wallet_Example.framework; path = "Pods-Wallet_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45ACC8C8E6AC1321ADDAF1F156D88CC /* RandomColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomColor.swift; path = RandomColor/RandomColor.swift; sourceTree = "<group>"; };
 		ACCDA4A839113C7E5B212B49BEFAA283 /* DynamicColor+Lab.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+Lab.swift"; path = "Sources/DynamicColor+Lab.swift"; sourceTree = "<group>"; };
 		AF26ED5F12D6A985A87FDB12DEBE5A1B /* DynamicColorSpace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicColorSpace.swift; path = Sources/DynamicColorSpace.swift; sourceTree = "<group>"; };
 		AFC3179CAC7A7725F2C718A05FE59747 /* HSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSL.swift; path = Sources/HSL.swift; sourceTree = "<group>"; };
 		B55AAD6499F14934E1CB95963469D53C /* DynamicColor+RGBA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+RGBA.swift"; path = "Sources/DynamicColor+RGBA.swift"; sourceTree = "<group>"; };
 		B596397840662E7793C9A1E445BE8BE9 /* DynamicColor+XYZ.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+XYZ.swift"; path = "Sources/DynamicColor+XYZ.swift"; sourceTree = "<group>"; };
-		B7F19E8AC22FFB5784418FF12F3F7511 /* CardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C24C37C6CC9BE60AB9236EC4F0FED58B /* RandomColorSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RandomColorSwift-umbrella.h"; sourceTree = "<group>"; };
+		C81FEBC3DEC98B62853074FF6A6294D6 /* Wallet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Wallet.modulemap; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DBF8EBBC530BA0A39C4E1C4924E62001 /* Wallet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Wallet-prefix.pch"; sourceTree = "<group>"; };
 		DE8005D57C6F13AB8D50920D33BF5367 /* Pods-Wallet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wallet_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DED344DCA563C42773F26795EB344F64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3E90436CD5E37218C93291399A4B8D0 /* Wallet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Wallet.modulemap; sourceTree = "<group>"; };
 		EB643780257C6D27E522A85B85849460 /* Pods-Wallet_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Wallet_Example-umbrella.h"; sourceTree = "<group>"; };
-		ECB39039839FE19DFF0014BF4ED78BB7 /* RandomColorSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RandomColorSwift.modulemap; sourceTree = "<group>"; };
+		ECB39039839FE19DFF0014BF4ED78BB7 /* RandomColorSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RandomColorSwift.modulemap; sourceTree = "<group>"; };
 		F353F790B347EFA74B91C8A142F80629 /* Pods-Wallet_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Wallet_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FC4EF0EF5DF4337E05ADEA7CFAF37A5B /* RandomColorSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RandomColorSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4729E0F8D0D7B4E28898C6192C04A74 /* WalletView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WalletView.swift; path = Wallet/Classes/WalletView.swift; sourceTree = "<group>"; };
+		FC4EF0EF5DF4337E05ADEA7CFAF37A5B /* RandomColorSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RandomColorSwift.framework; path = RandomColorSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD54CDC7480E1B4F30EB026BE7C37B0A /* DynamicColor+HSB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+HSB.swift"; path = "Sources/DynamicColor+HSB.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		56246AA8387751F56D6516BB82D1E2C2 /* Frameworks */ = {
+		1D10EFAFF0B7DAD5AC64F2D76D02E24E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CBAEE66D04ED2D8E8E8D4D9687F1609 /* Foundation.framework in Frameworks */,
+				6C408A8CF9EF9AEB5111F0794FFECCDD /* Foundation.framework in Frameworks */,
+				379569C2692CE795D04EC402DECC07AF /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		895C87754D52E6D8C4F5BB06A9F88CF7 /* Frameworks */ = {
+		4B708FA1621AB892AD1F52DF80FFC846 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6FED205EA365CE2B5C0B5723D2117A5 /* Foundation.framework in Frameworks */,
+				FF366DF1973039F17D8A10979E48150D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E22BD3A0C5F88435708500B7B17DC416 /* Frameworks */ = {
+		B50D0367AC42CF6FB9B401E8988977D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EADF56A71A960146E4595E95D24AE7DE /* Foundation.framework in Frameworks */,
-				4D89D6BCB4DF88E0C0BA16AC4BE4DA34 /* UIKit.framework in Frameworks */,
+				060E4125785E2476ACB52C56CA56B3B0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB414615BA52A571EBCCF055B6746B54 /* Frameworks */ = {
+		F971A170647BDD0404DEA627C901B88F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EB97FF1B6243D90747E4D5807D2104F /* Foundation.framework in Frameworks */,
+				436A3022B66749E1FB26B69DA675B491 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A44EE063F9E283C9561C390F77D9431 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				400BF7956C104AAF5F28AC31F1DA8A7D /* Wallet */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		0CDDA0FABB96DD40D2C10FB0F0DBB0D1 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B7F19E8AC22FFB5784418FF12F3F7511 /* CardView.swift */,
-				7A15584E0E56657A7FC41386107CBEA3 /* WalletView.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		0CE79E246D71D905F8A62F6C61ECAF98 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,22 +198,29 @@
 			path = "../Target Support Files/RandomColorSwift";
 			sourceTree = "<group>";
 		};
-		400BF7956C104AAF5F28AC31F1DA8A7D /* Wallet */ = {
+		41B01F80DB5DEE58B69E9B19AAAEA9BF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9F797BE41BF46040E3967B41BFCB5125 /* Support Files */,
-				81FA45D9FF9A5734B9C57E081B552C1E /* Wallet */,
+				D5C86A1BF894D297C9247D462E4EC9A1 /* Wallet */,
 			);
-			name = Wallet;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		441A437E0238A039588B10FA88A9C61C /* Targets Support Files */ = {
@@ -259,6 +249,7 @@
 				94F46B4DC41397BBAEF69BEA73C65083 /* Utils.swift */,
 				11EE2E6228450ACBA2C822480A08660F /* Support Files */,
 			);
+			name = DynamicColor;
 			path = DynamicColor;
 			sourceTree = "<group>";
 		};
@@ -271,6 +262,7 @@
 				A45ACC8C8E6AC1321ADDAF1F156D88CC /* RandomColor.swift */,
 				3F2F519702F70867DC3F2AAE90219F3C /* Support Files */,
 			);
+			name = RandomColorSwift;
 			path = RandomColorSwift;
 			sourceTree = "<group>";
 		};
@@ -278,20 +270,12 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0A44EE063F9E283C9561C390F77D9431 /* Development Pods */,
+				41B01F80DB5DEE58B69E9B19AAAEA9BF /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				BF1A995BBAD96C7B7ACF0DC2B8938002 /* Pods */,
 				0CE79E246D71D905F8A62F6C61ECAF98 /* Products */,
 				441A437E0238A039588B10FA88A9C61C /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		81FA45D9FF9A5734B9C57E081B552C1E /* Wallet */ = {
-			isa = PBXGroup;
-			children = (
-				0CDDA0FABB96DD40D2C10FB0F0DBB0D1 /* Classes */,
-			);
-			path = Wallet;
 			sourceTree = "<group>";
 		};
 		91B4639A6801BE56F874068C20836A4A /* Pods-Wallet_Example */ = {
@@ -312,20 +296,6 @@
 			path = "Target Support Files/Pods-Wallet_Example";
 			sourceTree = "<group>";
 		};
-		9F797BE41BF46040E3967B41BFCB5125 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				15C71953C4C4BBE3069F996904F7B26F /* Info.plist */,
-				E3E90436CD5E37218C93291399A4B8D0 /* Wallet.modulemap */,
-				16A90E3BA2B3C0814957867B1CE73F6B /* Wallet.xcconfig */,
-				4EA5A5585BAEC97C99C04EE4D1D12354 /* Wallet-dummy.m */,
-				79959ABEE6B174003D66DF72D689CC7D /* Wallet-prefix.pch */,
-				88B892E07BDA190A197305CE7385CB9F /* Wallet-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Wallet";
-			sourceTree = "<group>";
-		};
 		BF1A995BBAD96C7B7ACF0DC2B8938002 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,94 +305,96 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+		D5C86A1BF894D297C9247D462E4EC9A1 /* Wallet */ = {
 			isa = PBXGroup;
 			children = (
-				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
-				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+				791F7D0562AA0D0E403DDF69E881A238 /* CardView.swift */,
+				F4729E0F8D0D7B4E28898C6192C04A74 /* WalletView.swift */,
+				DDD9D81A01B0CC37935DD5251E9B13E0 /* Support Files */,
 			);
-			name = iOS;
+			name = Wallet;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DDD9D81A01B0CC37935DD5251E9B13E0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				697B7DFA0B20839FFD5F94CBF40655F6 /* Info.plist */,
+				C81FEBC3DEC98B62853074FF6A6294D6 /* Wallet.modulemap */,
+				30E7E282F110A436E47E6B2F0DB461D0 /* Wallet.xcconfig */,
+				24DABBEA8FB4EA2A9AF569316D33A581 /* Wallet-dummy.m */,
+				DBF8EBBC530BA0A39C4E1C4924E62001 /* Wallet-prefix.pch */,
+				0A6A6CABC4BD79774FCB0E0CAEBB6ADC /* Wallet-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Wallet";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		47402F89A49AC469AB28E1DF17729BF9 /* Headers */ = {
+		131F32788F3F68BCAC7BFAECC10ED060 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A50689465F992C0C42B4928D012D5C8 /* Wallet-umbrella.h in Headers */,
+				12FEC3DF21050C85A821BF447F3C3A99 /* RandomColorSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A5F50346B7FB1206CFD5E86397C8110 /* Headers */ = {
+		5C3F3326B6813361FDA1F8216BC49A98 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F4215E5D65D87DEAD5E6C8D7EDC055F /* RandomColorSwift-umbrella.h in Headers */,
+				B65D972A5497224F4B11190E7FCD3684 /* Pods-Wallet_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		714EC829C5F030BE4AA20AF3BFA46C13 /* Headers */ = {
+		8D5A9069AA8F56590D6F7752D10A8C96 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18ABF7E2A66036F368A864284A8F887E /* Pods-Wallet_Example-umbrella.h in Headers */,
+				EA3A9D261D67E22A6083FE24742AAF84 /* Wallet-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1FCE18A6CEEAA614A4BC37236F67D95 /* Headers */ = {
+		D5AFCB84CC38A8E7BC7FB6F6F31B9E7C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79A681C2EAFA2D16A9357DF21226FCC6 /* DynamicColor-umbrella.h in Headers */,
+				1B524B382874C6482E7A9E6DD014A218 /* DynamicColor-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9C97BBB7AD3136FB5B457127CEF75189 /* DynamicColor */ = {
+		2522A8140D098B3DAD4F01598C0EC36B /* Pods-Wallet_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6564E6E24976E647727412269FD0A5E9 /* Build configuration list for PBXNativeTarget "DynamicColor" */;
+			buildConfigurationList = 34CED2F17367949DABD6A732363C715E /* Build configuration list for PBXNativeTarget "Pods-Wallet_Example" */;
 			buildPhases = (
-				43E03A5F321155341D8059C873260916 /* Sources */,
-				E22BD3A0C5F88435708500B7B17DC416 /* Frameworks */,
-				F1FCE18A6CEEAA614A4BC37236F67D95 /* Headers */,
+				8FFFE99893F3317CEF80E5E3C75497BB /* Sources */,
+				4B708FA1621AB892AD1F52DF80FFC846 /* Frameworks */,
+				5C3F3326B6813361FDA1F8216BC49A98 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				403725B9BF25F9801BC77BF52DF8C5C2 /* PBXTargetDependency */,
+				5669F0F3E124E38D47560336E8E38CDE /* PBXTargetDependency */,
+				28DD1817A5F5678B80445E9745CD02ED /* PBXTargetDependency */,
 			);
-			name = DynamicColor;
-			productName = DynamicColor;
-			productReference = 8B188BF7775DF9DB31B22109A2392DE6 /* DynamicColor.framework */;
+			name = "Pods-Wallet_Example";
+			productName = "Pods-Wallet_Example";
+			productReference = A4031D16D99FDC4002F685A7D02AE2F8 /* Pods_Wallet_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A732734CC2619B9F4142E70B94BFD93D /* RandomColorSwift */ = {
+		47D937A792E0138E5BFABE75A3A3146F /* Wallet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 782EB370A4BFB3A1A297FDA488EABEE0 /* Build configuration list for PBXNativeTarget "RandomColorSwift" */;
+			buildConfigurationList = 7856BD041D0DE6F0A2CE036272908D38 /* Build configuration list for PBXNativeTarget "Wallet" */;
 			buildPhases = (
-				DD0F9DF97F0A19321BCE7F4047A37081 /* Sources */,
-				895C87754D52E6D8C4F5BB06A9F88CF7 /* Frameworks */,
-				6A5F50346B7FB1206CFD5E86397C8110 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RandomColorSwift;
-			productName = RandomColorSwift;
-			productReference = FC4EF0EF5DF4337E05ADEA7CFAF37A5B /* RandomColorSwift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AA3E7D4D551F127910EF6F79562EC41B /* Wallet */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 402E5453C4C12ACB3E4B6425102492AA /* Build configuration list for PBXNativeTarget "Wallet" */;
-			buildPhases = (
-				F27DC75E47C89A1D74096638CE21330B /* Sources */,
-				56246AA8387751F56D6516BB82D1E2C2 /* Frameworks */,
-				47402F89A49AC469AB28E1DF17729BF9 /* Headers */,
+				69FFC5A8CB7A6FB9025E4F945443BF7D /* Sources */,
+				B50D0367AC42CF6FB9B401E8988977D4 /* Frameworks */,
+				8D5A9069AA8F56590D6F7752D10A8C96 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -433,24 +405,38 @@
 			productReference = 9D0D661F6D007CC71E2A2284E19D6410 /* Wallet.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DEDA98EE154599FC5283B448150D1DE7 /* Pods-Wallet_Example */ = {
+		7695097722BCFC3AB0E1AB75466E30EB /* RandomColorSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87B16FFECB0D174CF035CD1B1EF4ECB9 /* Build configuration list for PBXNativeTarget "Pods-Wallet_Example" */;
+			buildConfigurationList = 4DB5254CBCDB47D3C91D19FE8180F032 /* Build configuration list for PBXNativeTarget "RandomColorSwift" */;
 			buildPhases = (
-				EF6DAB916691755A64D7A8B533F2C32D /* Sources */,
-				EB414615BA52A571EBCCF055B6746B54 /* Frameworks */,
-				714EC829C5F030BE4AA20AF3BFA46C13 /* Headers */,
+				8B898998B0C19B3D76E3DFCBE21EC82D /* Sources */,
+				F971A170647BDD0404DEA627C901B88F /* Frameworks */,
+				131F32788F3F68BCAC7BFAECC10ED060 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				680DB8C782526AAB50889489A2286BEF /* PBXTargetDependency */,
-				AD9719799037FA9AB212ABA448ED577B /* PBXTargetDependency */,
-				7338B046F75C32DF4D492D624911BF3A /* PBXTargetDependency */,
 			);
-			name = "Pods-Wallet_Example";
-			productName = "Pods-Wallet_Example";
-			productReference = A4031D16D99FDC4002F685A7D02AE2F8 /* Pods_Wallet_Example.framework */;
+			name = RandomColorSwift;
+			productName = RandomColorSwift;
+			productReference = FC4EF0EF5DF4337E05ADEA7CFAF37A5B /* RandomColorSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C64F0FDD564E859332AD6D302CCC004D /* DynamicColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8838B359EC5714FA89672AAF0B9C8139 /* Build configuration list for PBXNativeTarget "DynamicColor" */;
+			buildPhases = (
+				523B03BE3359DDD40238B5B6E8474E69 /* Sources */,
+				1D10EFAFF0B7DAD5AC64F2D76D02E24E /* Frameworks */,
+				D5AFCB84CC38A8E7BC7FB6F6F31B9E7C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicColor;
+			productName = DynamicColor;
+			productReference = 8B188BF7775DF9DB31B22109A2392DE6 /* DynamicColor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -459,8 +445,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0810;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -474,115 +460,406 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C97BBB7AD3136FB5B457127CEF75189 /* DynamicColor */,
-				DEDA98EE154599FC5283B448150D1DE7 /* Pods-Wallet_Example */,
-				A732734CC2619B9F4142E70B94BFD93D /* RandomColorSwift */,
-				AA3E7D4D551F127910EF6F79562EC41B /* Wallet */,
+				C64F0FDD564E859332AD6D302CCC004D /* DynamicColor */,
+				2522A8140D098B3DAD4F01598C0EC36B /* Pods-Wallet_Example */,
+				7695097722BCFC3AB0E1AB75466E30EB /* RandomColorSwift */,
+				47D937A792E0138E5BFABE75A3A3146F /* Wallet */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		43E03A5F321155341D8059C873260916 /* Sources */ = {
+		523B03BE3359DDD40238B5B6E8474E69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2364652F175D5695DAD0B11FEFA2A73C /* Array.swift in Sources */,
-				5FD32BBC6C2ACFC4494EB386E6F9308A /* DynamicColor+Deriving.swift in Sources */,
-				676F0715FFEEB4FA5D770C912AC4F74C /* DynamicColor+HSB.swift in Sources */,
-				856CE294370DAF553F0ECDD29AD669B9 /* DynamicColor+HSL.swift in Sources */,
-				424ACCFD6DA2229C594857A8A1688BBB /* DynamicColor+Lab.swift in Sources */,
-				B0D08AD729FECE980C74EC0780799331 /* DynamicColor+Mixing.swift in Sources */,
-				AE2389789B8423BC4295A28C3E5591C0 /* DynamicColor+RGBA.swift in Sources */,
-				ED2406FC13EDD6D121D1ADA776B0253F /* DynamicColor+XYZ.swift in Sources */,
-				56CA115A4B4B4FEF6003FC91A497CB91 /* DynamicColor-dummy.m in Sources */,
-				BC87E7CBDD2411DE5A557CA1B5553DAF /* DynamicColor.swift in Sources */,
-				A0EBB891BA9517F9701487F7A930C8EA /* DynamicColorSpace.swift in Sources */,
-				C44A1F902C491293582197A57CE55FE8 /* DynamicGradient.swift in Sources */,
-				0ADE4F01EBDCFC66E956C9FE61B6A5D6 /* HSL.swift in Sources */,
-				563FC6BD26440F44B9CDE6C165182B89 /* Utils.swift in Sources */,
+				A238D8EC86DDBF90DF3402B1FFE367DF /* Array.swift in Sources */,
+				7B4C02C1BDF15186F402B3100517A9E7 /* DynamicColor+Deriving.swift in Sources */,
+				29D7BA2036B88EB84CDBE9281AA360D3 /* DynamicColor+HSB.swift in Sources */,
+				C02A5DA43088597E7DB46368380FAC26 /* DynamicColor+HSL.swift in Sources */,
+				66BCC3F1CC504913A73080D44F3C21D1 /* DynamicColor+Lab.swift in Sources */,
+				59547F6F675435754E9BEB23F9AC2D6F /* DynamicColor+Mixing.swift in Sources */,
+				471F513248B2989FB36EC0D56E9CDBBB /* DynamicColor+RGBA.swift in Sources */,
+				7DACCEE1830C33C774FB0C53BC0E4556 /* DynamicColor+XYZ.swift in Sources */,
+				186B8A70499597D6E554440D69E04DCD /* DynamicColor-dummy.m in Sources */,
+				16D08FB2A59EA1EC21FE8FA029940D81 /* DynamicColor.swift in Sources */,
+				28F66F726983ECAB18C430982C0F28E8 /* DynamicColorSpace.swift in Sources */,
+				AD83A3C9D1FD52649A8AB5E7BDEB01E1 /* DynamicGradient.swift in Sources */,
+				F87469F1747C5872CD9D3879C6D0BDEF /* HSL.swift in Sources */,
+				EA5E6C08B38EF33F382F9558C79A9D3D /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD0F9DF97F0A19321BCE7F4047A37081 /* Sources */ = {
+		69FFC5A8CB7A6FB9025E4F945443BF7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13FF033D97365CE3894692912164C30E /* ColorDefinition.swift in Sources */,
-				C364404F55FCB12539B013833A9A2EA4 /* Hue.swift in Sources */,
-				B71D80CEA75DC1B5FE6B5923A921F612 /* Luminosity.swift in Sources */,
-				BF31BB22BF44B03E03438F108CFD0456 /* RandomColor.swift in Sources */,
-				D093119867767CFC4245C44884E31811 /* RandomColorSwift-dummy.m in Sources */,
+				704A6830B7B3592C15DB4996CE8EDB2D /* CardView.swift in Sources */,
+				94E6B316AE9BB1CB9BA50C7D10C3F69E /* Wallet-dummy.m in Sources */,
+				25D9964CA21FFE346327A5C5AC77169E /* WalletView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF6DAB916691755A64D7A8B533F2C32D /* Sources */ = {
+		8B898998B0C19B3D76E3DFCBE21EC82D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78999E64ED0E89EEBE9203A93B4FD064 /* Pods-Wallet_Example-dummy.m in Sources */,
+				02E79FCFE227E6B2A591F2443F5ACEEF /* ColorDefinition.swift in Sources */,
+				C991614D999AB1EDDFEAD226A4E16734 /* Hue.swift in Sources */,
+				DF8ACF00E02BB19567882C2D6BAC00C3 /* Luminosity.swift in Sources */,
+				5BFFC3F2A91448AC9E94E3C2FC2EAA75 /* RandomColor.swift in Sources */,
+				7EDE22C99E3F100F1AC1A5FAF9DD914B /* RandomColorSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F27DC75E47C89A1D74096638CE21330B /* Sources */ = {
+		8FFFE99893F3317CEF80E5E3C75497BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				151B2DE2966082DFE54D84CF6999CC58 /* CardView.swift in Sources */,
-				F056690A1766C06D2330A2947D655A0F /* Wallet-dummy.m in Sources */,
-				DA18D374BACECF69F85DE0B98029F4A4 /* WalletView.swift in Sources */,
+				4AFFB3AA4F7180A2D6EA12D35EF92B43 /* Pods-Wallet_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		680DB8C782526AAB50889489A2286BEF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DynamicColor;
-			target = 9C97BBB7AD3136FB5B457127CEF75189 /* DynamicColor */;
-			targetProxy = A3A40643AA0B5C59B315C7C73BEB3983 /* PBXContainerItemProxy */;
-		};
-		7338B046F75C32DF4D492D624911BF3A /* PBXTargetDependency */ = {
+		28DD1817A5F5678B80445E9745CD02ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Wallet;
-			target = AA3E7D4D551F127910EF6F79562EC41B /* Wallet */;
-			targetProxy = E767529BB6EA07E008A70162D6D39F62 /* PBXContainerItemProxy */;
+			target = 47D937A792E0138E5BFABE75A3A3146F /* Wallet */;
+			targetProxy = 48B01F25EA6A44BCF70AEA9800B809D8 /* PBXContainerItemProxy */;
 		};
-		AD9719799037FA9AB212ABA448ED577B /* PBXTargetDependency */ = {
+		403725B9BF25F9801BC77BF52DF8C5C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicColor;
+			target = C64F0FDD564E859332AD6D302CCC004D /* DynamicColor */;
+			targetProxy = DA6BE538C66C5A2759AC908E1CEC77EB /* PBXContainerItemProxy */;
+		};
+		5669F0F3E124E38D47560336E8E38CDE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RandomColorSwift;
-			target = A732734CC2619B9F4142E70B94BFD93D /* RandomColorSwift */;
-			targetProxy = F8FEE5F1662C97C8CE1EC2952A5D972D /* PBXContainerItemProxy */;
+			target = 7695097722BCFC3AB0E1AB75466E30EB /* RandomColorSwift */;
+			targetProxy = A04A61C3359B824D85830EC36EAE7258 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+		062B91C83727C685FCDFFA84EAE2EF6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40065795C91C35CEA0B911C081C3E6E7 /* Pods-Wallet_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Wallet_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Wallet_Example/Pods-Wallet_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Wallet_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		356D0681BB5706083B677FC937D0B3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C1867A1AE9849E37E64266A2E4A67E9 /* RandomColorSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RandomColorSwift/RandomColorSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RandomColorSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RandomColorSwift/RandomColorSwift.modulemap";
+				PRODUCT_NAME = RandomColorSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A8379735255378C7C1AE3CFAF36644C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E7E282F110A436E47E6B2F0DB461D0 /* Wallet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Wallet/Wallet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Wallet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Wallet/Wallet.modulemap";
+				PRODUCT_NAME = Wallet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6199706D4C2AE91A9ACA1808F08FE0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C1867A1AE9849E37E64266A2E4A67E9 /* RandomColorSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RandomColorSwift/RandomColorSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RandomColorSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RandomColorSwift/RandomColorSwift.modulemap";
+				PRODUCT_NAME = RandomColorSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C9FBCE4B565B735C062D168D115FE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8005D57C6F13AB8D50920D33BF5367 /* Pods-Wallet_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Wallet_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Wallet_Example/Pods-Wallet_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Wallet_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B6F3A1BE6D3ADF9941B408017E211C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E7E282F110A436E47E6B2F0DB461D0 /* Wallet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Wallet/Wallet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Wallet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Wallet/Wallet.modulemap";
+				PRODUCT_NAME = Wallet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D03CADFC633BC2AE5EFA02B3AFD84370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 167E2EE465564EDA837740747743D501 /* DynamicColor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicColor/DynamicColor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicColor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicColor/DynamicColor.modulemap";
+				PRODUCT_NAME = DynamicColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -591,220 +868,46 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4600AD70B8537D211DDB7997A6FC547C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C1867A1AE9849E37E64266A2E4A67E9 /* RandomColorSwift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RandomColorSwift/RandomColorSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RandomColorSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RandomColorSwift/RandomColorSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = RandomColorSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		66829DB26B1399A12644FDFB0D9EDF37 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C1867A1AE9849E37E64266A2E4A67E9 /* RandomColorSwift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RandomColorSwift/RandomColorSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RandomColorSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RandomColorSwift/RandomColorSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RandomColorSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6C72B00CAC1F018E02C17BC6F351CBE5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16A90E3BA2B3C0814957867B1CE73F6B /* Wallet.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Wallet/Wallet-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Wallet/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Wallet/Wallet.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Wallet;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7772829DED13B8EF06BF3DAFC26EBD5B /* Release */ = {
+		FCA00F1FB079EBF0796019780B0A5A27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 167E2EE465564EDA837740747743D501 /* DynamicColor.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/DynamicColor/DynamicColor-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DynamicColor/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DynamicColor/DynamicColor.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = DynamicColor;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A09690DC41B635B3B8B394CA1D46E2CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16A90E3BA2B3C0814957867B1CE73F6B /* Wallet.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Wallet/Wallet-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Wallet/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Wallet/Wallet.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Wallet;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -812,112 +915,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		A39A784EB0F51F42525752673C5246D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 167E2EE465564EDA837740747743D501 /* DynamicColor.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DynamicColor/DynamicColor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DynamicColor/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DynamicColor/DynamicColor.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DynamicColor;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B00101102C071E922F75088DE161522A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40065795C91C35CEA0B911C081C3E6E7 /* Pods-Wallet_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Wallet_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Wallet_Example/Pods-Wallet_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Wallet_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B9199D4DD27D006F11EE3D9A4DBA2A32 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE8005D57C6F13AB8D50920D33BF5367 /* Pods-Wallet_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Wallet_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Wallet_Example/Pods-Wallet_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Wallet_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -925,44 +922,44 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
-				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		402E5453C4C12ACB3E4B6425102492AA /* Build configuration list for PBXNativeTarget "Wallet" */ = {
+		34CED2F17367949DABD6A732363C715E /* Build configuration list for PBXNativeTarget "Pods-Wallet_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A09690DC41B635B3B8B394CA1D46E2CF /* Debug */,
-				6C72B00CAC1F018E02C17BC6F351CBE5 /* Release */,
+				062B91C83727C685FCDFFA84EAE2EF6F /* Debug */,
+				7C9FBCE4B565B735C062D168D115FE87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6564E6E24976E647727412269FD0A5E9 /* Build configuration list for PBXNativeTarget "DynamicColor" */ = {
+		4DB5254CBCDB47D3C91D19FE8180F032 /* Build configuration list for PBXNativeTarget "RandomColorSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A39A784EB0F51F42525752673C5246D6 /* Debug */,
-				7772829DED13B8EF06BF3DAFC26EBD5B /* Release */,
+				356D0681BB5706083B677FC937D0B3C3 /* Debug */,
+				6199706D4C2AE91A9ACA1808F08FE0A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		782EB370A4BFB3A1A297FDA488EABEE0 /* Build configuration list for PBXNativeTarget "RandomColorSwift" */ = {
+		7856BD041D0DE6F0A2CE036272908D38 /* Build configuration list for PBXNativeTarget "Wallet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4600AD70B8537D211DDB7997A6FC547C /* Debug */,
-				66829DB26B1399A12644FDFB0D9EDF37 /* Release */,
+				5A8379735255378C7C1AE3CFAF36644C /* Debug */,
+				B6F3A1BE6D3ADF9941B408017E211C36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87B16FFECB0D174CF035CD1B1EF4ECB9 /* Build configuration list for PBXNativeTarget "Pods-Wallet_Example" */ = {
+		8838B359EC5714FA89672AAF0B9C8139 /* Build configuration list for PBXNativeTarget "DynamicColor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B00101102C071E922F75088DE161522A /* Debug */,
-				B9199D4DD27D006F11EE3D9A4DBA2A32 /* Release */,
+				FCA00F1FB079EBF0796019780B0A5A27 /* Debug */,
+				D03CADFC633BC2AE5EFA02B3AFD84370 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
